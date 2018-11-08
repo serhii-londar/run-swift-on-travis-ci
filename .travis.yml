@@ -4,4 +4,4 @@ before_install:
   - gem install cocoapods
 script:
   - swift --version
-  - ./test.swift
+  - swift test.swift
